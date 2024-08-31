@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=devide-width, initial-scale=1.0">
+    <title>Template of IT Company</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+        body{
+            background-color: white;
+            
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .header-list
+        {
+            height: 20vh ;
+            width: 30vw;
+            min-width: 40vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: auto;
+        }
+        a{
+            position: relative;
+            text-decoration: none;
+            color:grey;
+            font-weight: 700;
+            font-size: 30px;
+            padding: 0 20px;
+            margin: 20px 0px;
+            align-items: last baseline;
+        }
+        a:after{
+         content:"";
+         position: absolute;
+         background-color: burlywood;
+         height: 3px;
+         width: 0;
+         left: 0;
+         bottom:-10px;
+         transition:0.3s;
+
+        }
+        .accountbutton
+        {
+            align-items: center;
+            font-size: 20px;
+            font-weight: 700px;
+            font-family:'Times New Roman', Times, serif;
+            display: flex;
+            padding: 0px 30px;
+            margin: 5vh 6vw;
+            color: black;
+            background-color:white;
+        
+        }
+        .logo img{
+            height:10vh;
+            align-items: center;
+            display: flex;
+            width:12.5vw;
+            margin:50px 100px;
+
+            
+        }
+        .search-bar {
+            display: flex;
+            justify-content: flex-end; 
+            width: 80%; 
+            padding: 5px;
+            background-color: #f1f1f1; 
+            margin: 0px 110px;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+            flex: 1; 
+        }
+
+        .search-bar button {
+            padding: 0.5rem 1rem;
+            border: 1px solid #ccc;
+            background: #555;
+            color: #fff;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        .container
+        {
+            display: flex;
+            margin: 1vh 10vw;
+
+        }
+        .right
+        {
+
+            width:40%;
+        }
+        .right img{
+            width:400px;
+            height:400px;
+            margin: 0px 10px 40px 10px;
+            border-radius: 10px;
+
+        }
+        .left
+        {
+            width:60%;
+        }
+        .head
+        {
+            font-size: 15px;
+            color:red;
+
+        }
+        .p2
+        {
+            color: blue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .newaccount
+        {
+            align-items: center;
+            font-size: 15px;
+            font-weight: 700px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 40px;
+            padding: 20px;
+            margin: 6vh 1vw;
+            color:white;
+            background-color:red;
+        
+        }
+    
+        
+        
+        
+        .services
+        {
+            display: flex;
+            max-width:200%;
+            height: 150px;
+        }
+       
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .home-parap{
+            padding: 20px; 
+            font-size: 25px; 
+            margin:0px 110px 90px 110px;
+            color: blue;
+        }
+
+        
+
+        
+
+        footer p {
+            margin: 0;
+        }
+
+    
+    
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <main></main>
+        <div class="logo">
+            <img src="./itlogo1.jpg" alt="logo">
+        </div>
+        <div class="header-list" >
+            <a href="Template.html"> Home </a> 
+            <a href="about.html"> About </a> 
+            <a href="services.html"> Services </a> 
+            <a href="career.html"> Careers</a> 
+            
+        </div>
+        <div class="accountbutton">Login/Sign
+        </div>
+    </nav>
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="button">Search</button>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+        
+    <div class="left">
+        <div class="head">
+            <h1> ___   COMMITTED TO SUCCESS</h1>
+            </div>
+            
+    <h1 class="p2"> Experienced For <br>
+        Every Kinds Of ITSOLUTION</h1>
+        <br>
+        <br>
+    <div class="buttons">
+        <span class="newaccount"> OUR SERVICES </span>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    
+    </div>
+    
+    <div class="services">
+       <img src="./pro.png" alt="pro">
+       <img src="./cyber.png" alt="cyber">
+       <img src="./web.jfif" alt="web">
+    </div>
+</div>
+    <div class="right">
+        <img src="./right part.jfif" alt="right part">
+    </div>
+
+    </div>
+</main>
+
+
+    <div class="home-parap">
+        <p>
+        Welcome to Bitzu-where innovation meets excellence. As a leading IT solutions provider, we specialize in delivering cutting-edge technology and unparalleled support to drive your business forward. Our expert team is dedicated to crafting tailored solutions that address your unique challenges and accelerate your growth. From robust cybersecurity to seamless cloud integration, we empower your organization with the tools and expertise needed to thrive in today’s digital landscape. Discover how we can transform your technology and unlock new opportunities for success.
+       </p>
+       </div>
+
+
+<footer>
+    <p>&copy; 2024 IT Company. All rights reserved.</p>
+</footer>
+    
+</body>
+</html>
